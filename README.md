@@ -1,7 +1,16 @@
-atmoz/sftp
+pheonyx/sftp - (fork of [atmoz/sftp](https://github.com/atmoz/sftp))
 ==========
 
-Easy to use SFTP ([SSH File Transfer Protocol](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)) server with [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH). This is an automated build linked with the [debian](https://hub.docker.com/_/debian/) repository.
+Easy to use SFTP ([SSH File Transfer Protocol](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)) server with [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH). This is an automated build linked with the [alpine](https://hub.docker.com/_/alpine/) repository.
+
+Why fork [atmoz/sftp](https://github.com/atmoz/sftp) ?
+-----
+Why use bigger image for a simple SFTP server ?
+Personnaly, I think alpine was a better choice for this use.
+It take only 6 MB of memory and 6 KB (12.5 MB virtual) on disk instead of 18 MB / 1.6 MB (145 MB virtual) for debian (on my laptop).
+
+I just adapt [atmoz](https://github.com/atmoz)' configuration for alpine image.
+The usage is really the same (his unit test ran on it).
 
 Usage
 -----
