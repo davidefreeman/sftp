@@ -1,5 +1,3 @@
-pheonyx/sftp - (fork of [atmoz/sftp](https://github.com/atmoz/sftp))
-==========
 [![Docker Repository on Quay](https://quay.io/repository/pheonyx/sftp/status "Docker Repository on Quay")](https://quay.io/repository/pheonyx/sftp)
 
 Easy to use SFTP ([SSH File Transfer Protocol](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)) server with [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH). This is an automated build linked with the [alpine](https://hub.docker.com/_/alpine/) repository.
