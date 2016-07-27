@@ -9,7 +9,7 @@ Why use bigger image for a simple SFTP server ?
 Personnaly, I think alpine was a better choice for this use.
 It take only 6 MB of memory and 6 KB (12.5 MB virtual) on disk instead of 18 MB / 1.6 MB (145 MB virtual) for debian (on my laptop).
 
-I just adapt [atmoz](https://github.com/atmoz)' configuration for alpine image.
+I just adapt [atmoz](https://github.com/atmoz) configuration for alpine image.
 The usage is really the same (his unit test ran on it).
 
 Usage
